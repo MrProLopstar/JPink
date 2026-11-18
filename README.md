@@ -116,6 +116,10 @@ cd JPink
 pio run -e default
 ```
 
+### 🖥️ Desktop Emulator & Testbench
+Test UI layouts, fonts, and features directly on your PC without flashing physical hardware using the companion emulator:  
+👉 **[xteink-emulator](https://github.com/MrProLopstar/xteink-emulator)**
+
 ---
 
 ### 💬 Feedback & Bug Reports
@@ -164,6 +168,12 @@ I am actively improving JPink! If you encounter any bugs, rendering issues, or h
 2. Запустите скрипт:
    * **Windows**: запустите `flash.bat`
    * **Linux / macOS**: запустите `./flash.sh`
+
+---
+
+### 🖥️ Десктопный эмулятор и тестовый стенд
+Для тестирования экранов, шрифтов и локализации на компьютере без прошивки ридера доступен отдельный эмулятор:  
+👉 **[xteink-emulator](https://github.com/MrProLopstar/xteink-emulator)**
 
 ---
 
