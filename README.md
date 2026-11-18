@@ -120,7 +120,7 @@ pio run -e default
 
 ### 💬 Feedback & Bug Reports
 
-We are actively improving JPink! If you encounter any bugs, rendering issues, or have ideas:
+I am actively improving JPink! If you encounter any bugs, rendering issues, or have ideas:
 * 👉 **[Open an Issue / Submit Bug Report](https://github.com/MrProLopstar/JPink/issues)**
 * Any feedback, ideas, and bug reports are warmly welcomed to help polish and bring this project to perfection!
 
@@ -171,7 +171,7 @@ We are actively improving JPink! If you encounter any bugs, rendering issues, or
 
 Проект активно развивается и дорабатывается! Если вы обнаружили ошибку, графический баг или у вас есть идеи по улучшению:
 * 👉 **[Создать Issue / Сообщить об ошибке](https://github.com/MrProLopstar/JPink/issues)**
-* Очень жду ваши отзывы, предложения и отчеты об ошибках, чтобы вместе довести проект до идеала!
+* Очень жду ваши отзывы, предложения и отчеты об ошибках, чтобы довести проект до идеала!
 
 ---
 
