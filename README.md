@@ -28,10 +28,10 @@ While preserving the core EPUB reading engine, typography, and battery efficienc
 ### 🌟 Key Features
 
 #### 🎌 Japanese Language Suite
-* **Interactive Kana Charts**: Complete Hiragana and Katakana tables (Gojūon, Dakuten, Handakuten, Yōon) with quick navigation and Hepburn / Polivanov readings.
-* **Kanji Cards (JLPT N5 – N1)**: Full-screen character cards with On'yomi, Kun'yomi, radicals, stroke count, and English & Russian meanings.
-* **Practice & Quizzes**: Rapid flashcard drills and recognition quizzes.
-* **Built-in Japanese Typography**: Native high-legibility CJK kanji and kana glyphs.
+* **Interactive Kana Matrix (5×10 Gojūon)**: Instant 1-click toggle between Hiragana and Katakana, directional navigation, 36pt high-legibility glyphs, Hepburn & Polivanov transcriptions, and historical Man'yōgana origins (`安 → あ`, `以 → い`).
+* **Kanji Cards (JLPT N5 – N1)**: Full-screen character cards with On'yomi, Kun'yomi, radicals, stroke count, frequency index, English & Russian meanings, and compound word examples with zero dithering noise.
+* **Interactive Quizzes & Drills**: Kana Quiz and JLPT N5 Kanji Quiz with smart distractor generation, instant checkmark/cross feedback, and streak score tracking.
+* **Flashcards with Shuffle Mode**: Randomize flashcard order to reinforce visual recognition independently of alphabet sequence.
 
 #### 📅 Interactive E-Ink Calendar
 * High-contrast monthly calendar view with clear current-day highlighting.
@@ -40,8 +40,11 @@ While preserving the core EPUB reading engine, typography, and battery efficienc
 #### 📰 RSS News Reader
 * Download RSS/Atom feeds via Wi-Fi for distraction-free offline reading.
 
-#### 🧠 Anki Spaced Repetition
-* Review Anki flashcards directly on your e-reader screen without eye fatigue.
+#### 🧠 Anki Spaced Repetition (SM-2)
+* **True SM-2 Algorithm**: Ease Factor (130%–250%), calculated day intervals, lapse tracking, and 4 rating grades (Again, Hard, Good, Easy).
+* **Smart Re-queueing**: Pressing "Again" immediately re-queues the card to the end of the current session so you master it before finishing.
+* **Custom Decks via SD Card**: Drop any exported `.tsv` or `.txt` Anki deck into `/sdcard/anki/` (`Word [Tab] Meaning [Tab] Reading [Tab] Example`).
+* **Session Summary**: End-of-deck statistics with review count, accuracy percentage, and completion badge.
 
 #### 🎨 Modern UI & New Themes
 * **Themes**: Classic, Lyra, Rounded Raff, Minimalist, and Brutalist.
@@ -65,9 +68,13 @@ While preserving the core EPUB reading engine, typography, and battery efficienc
 |:---:|:---:|:---:|
 | <img src="./docs/images/jpink/home_menu.png" width="240"/> | <img src="./docs/images/jpink/calendar_view.png" width="240"/> | <img src="./docs/images/jpink/kanji_details.png" width="240"/> |
 
-| Hiragana / Katakana Table | Night Sleep Screen | Reading View |
+| Anki Spaced Repetition | Kanji Interactive Quiz | Hiragana / Katakana Table |
 |:---:|:---:|:---:|
-| <img src="./docs/images/jpink/kana_table.png" width="240"/> | <img src="./docs/images/jpink/sleep_screen.png" width="240"/> | <img src="./docs/images/jpink/reading_view.png" width="240"/> |
+| <img src="./docs/images/jpink/anki_card.png" width="240"/> | <img src="./docs/images/jpink/kanji_quiz.png" width="240"/> | <img src="./docs/images/jpink/kana_table.png" width="240"/> |
+
+| Night Sleep Screen | Reading View |
+|:---:|:---:|
+| <img src="./docs/images/jpink/sleep_screen.png" width="240"/> | <img src="./docs/images/jpink/reading_view.png" width="240"/> |
 
 ---
 
@@ -134,10 +141,16 @@ We are actively improving JPink! If you encounter any bugs, rendering issues, or
 
 ### 🌟 Основные возможности
 
-* **Изучение японского языка**: интерактивные таблицы Хираганы и Катаканы (Хэпбёрн / Поливанов), карточки Кандзи уровней JLPT N5–N1 с онъёми, кунъёми, ключами и переводами, тренировочные тесты.
+* **Изучение японского языка**:
+  * Интерактивная таблица каны (Gojūon 5×10) с мгновенным переключением Хирагана ⇄ Катакана, транскрипцией по Поливанову и Хэпбёрну, и кандзи-предками (манъёгана `安 → あ`);
+  * Полноэкранные карточки Кандзи уровней JLPT N5–N1 с онъёми, кунъёми, ключами, чертами, переводами и примерами без серого дизеринга;
+  * Интерактивные викторины (Kana Quiz & Kanji Quiz) с мгновенной проверкой ответов (`✔` / `✖`) и подсчетом очков;
+  * Режим карточек со случайным перемешиванием (Shuffle).
+* **Интервальные повторения Anki (SM-2)**:
+  * Полноценный математический алгоритм SuperMemo-2 (Ease Factor, интервалы, забывания);
+  * 4 градации оценок (Again / Hard / Good / Easy) с мгновенным возвратом карточки в хвост очереди при ошибке;
+  * Загрузка любых пользовательских колод с microSD из файлов `.tsv` / `.txt`.
 * **E-Ink Календарь**: четкая сетка месяца, удобное переключение дней, месяцев и лет, выделение сегодняшнего числа.
-* **Чтение RSS новостей**: загрузка лент новостей по Wi-Fi для комфортного чтения офлайн.
-* **Карточки Anki**: повторение интервальных карточек прямо на ридере.
 * **Интерфейс и темы**: темы Classic, Lyra, Rounded Raff, Minimalist и Brutalist, индикатор прокрутки (слайдер) в главном меню, каомодзи статуса батареи `(^_^)`, новые экраны сна.
 * **Часы и дата**: ручная установка даты и времени в настройках системы + автосинхронизация по NTP через интернет.
 * **Стабильность сети**: устранение падений lwIP при скачивании по HTTPS, стабильный Wi-Fi без засыпания радиомодуля.
