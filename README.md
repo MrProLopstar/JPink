@@ -72,9 +72,9 @@ While preserving the core EPUB reading engine, typography, and battery efficienc
 |:---:|:---:|:---:|
 | <img src="./docs/images/jpink/anki_card.png" width="240"/> | <img src="./docs/images/jpink/kanji_quiz.png" width="240"/> | <img src="./docs/images/jpink/kana_table.png" width="240"/> |
 
-| Night Sleep Screen | Reading View |
-|:---:|:---:|
-| <img src="./docs/images/jpink/sleep_screen.png" width="240"/> | <img src="./docs/images/jpink/reading_view.png" width="240"/> |
+| Night Sleep Screen | Bookshelf Sleep Screen | Reading View |
+|:---:|:---:|:---:|
+| <img src="./docs/images/jpink/sleep_screen.png" width="240"/> | <img src="./docs/images/jpink/sleep_bookshelf.png" width="240"/> | <img src="./docs/images/jpink/reading_view.png" width="240"/> |
 
 ---
 
@@ -125,8 +125,9 @@ Test UI layouts, fonts, and features directly on your PC without flashing physic
 ### 💬 Feedback & Bug Reports
 
 I am actively improving JPink! If you encounter any bugs, rendering issues, or have ideas:
+* ⭐ **Star the Project**: If you like JPink, please consider giving it a star on GitHub! It helps more e-reader enthusiasts discover the project.
 * 👉 **[Open an Issue / Submit Bug Report](https://github.com/MrProLopstar/JPink/issues)**
-* Any feedback, ideas, and bug reports are warmly welcomed to help polish and bring this project to perfection!
+* Any feedback, reviews, ideas, and bug reports are warmly welcomed to help polish and bring this project to perfection!
 
 ---
 
@@ -177,9 +178,10 @@ I am actively improving JPink! If you encounter any bugs, rendering issues, or h
 
 ---
 
-### 💬 Отзывы и отчеты об ошибках
+### 💬 Звёзды, отзывы и отчеты об ошибках
 
-Проект активно развивается и дорабатывается! Если вы обнаружили ошибку, графический баг или у вас есть идеи по улучшению:
+Проект активно развивается и дорабатывается!
+* ⭐ **Поддержите проект звёздочкой**: Если JPink вам понравился, поставьте звезду репозиторию на GitHub — это здорово помогает проекту и мотивирует развивать его дальше!
 * 👉 **[Создать Issue / Сообщить об ошибке](https://github.com/MrProLopstar/JPink/issues)**
 * Очень жду ваши отзывы, предложения и отчеты об ошибках, чтобы довести проект до идеала!
 
